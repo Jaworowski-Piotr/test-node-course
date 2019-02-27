@@ -51,7 +51,7 @@ it('Add two number', (done) => {
         done();
     })
 });
-
+//7
 it('Square two number', (done) => {
     utils.ansycSquare(9, (sqr) => {
         expect(sqr).toBe(81).toBeA('number');
